@@ -1,147 +1,134 @@
 function yoPresente(raiz) {
-    document.write("Yo " + raiz + "o" + "<br>");
+    return raiz + "o";
 }
 
 function tuPresente(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Tu " + raiz + "as" + "<br>");
-    else document.write("Tu " + raiz + "es" + "<br>");
+    if(descinencia == "ar") return raiz + "as";
+    else return raiz + "es";
 }
 
 function elPresente(raiz, descinencia) {
-    if(descinencia == "ar") document.write("El " + raiz + "a" + "<br>");
-    else document.write("El " + raiz + "e" + "<br>");
+    if(descinencia == "ar") return raiz + "a";
+    else return raiz + "e";
 }
 
 function nosotrosPresente(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Nosotros " + raiz + "amos" + "<br>");
-    else document.write("Nosotros " + raiz + "emos" + "<br>");
+    if(descinencia == "ar") return raiz + "amos";
+    else return raiz + "emos";
 }
 
 function ellosPresente(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Ellos " + raiz + "an" + "<br>");
-    else document.write("Ellos " + raiz + "en" + "<br>");
+    if(descinencia == "ar") return raiz + "an";
+    else return raiz + "en";
 }
 
 function vosotrosPresente(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Vosotros " + raiz + "ais" + "<br>");
-    else document.write("Vosotros " + raiz + "eis" + "<br>");
-}
-
-function conjugarPresente(raiz, descinencia) {
-    yoPresente(raiz);
-    tuPresente(raiz, descinencia);
-    elPresente(raiz, descinencia);
-    nosotrosPresente(raiz, descinencia);
-    ellosPresente(raiz, descinencia);
-    vosotrosPresente(raiz, descinencia);
+    if(descinencia == "ar") return raiz + "ais";
+    else return raiz + "eis";
 }
 
 function yoPasado(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Yo " + raiz + "e" + "<br>");
-    else document.write("Yo " + raiz + "i" + "<br>");
+    if(descinencia == "ar") return raiz + "e";
+    else return raiz + "i";
 }
 
 function tuPasado(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Tu " + raiz + "aste" + "<br>");
-    else document.write("Tu " + raiz + "iste" + "<br>");
+    if(descinencia == "ar") return raiz + "aste";
+    else return raiz + "iste";
 }
 
 function elPasado(raiz, descinencia) {
-    if(descinencia == "ar") document.write("El " + raiz + "o" + "<br>");
-    else document.write("El " + raiz + "io" + "<br>");
+    if(descinencia == "ar") return raiz + "o";
+    else return raiz + "io";
 }
 
 function nosotrosPasado(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Nosotros " + raiz + "amos" + "<br>");
-    else document.write("Nosotros " + raiz + "imos" + "<br>");
+    if(descinencia == "ar") return raiz + "amos";
+    else return raiz + "imos";
 }
 
 function ellosPasado(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Ellos " + raiz + "aron" + "<br>");
-    else document.write("Ellos " + raiz + "ieron" + "<br>");
+    if(descinencia == "ar") return raiz + "aron";
+    else return raiz + "ieron";
 }
 
 function vosotrosPasado(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Vosotros " + raiz + "aiste" + "<br>");
-    else document.write("Vosotros " + raiz + "eis" + "<br>");
-}
-
-function conjugarPasado(raiz, descinencia) {
-    yoPasado(raiz, descinencia);
-    tuPasado(raiz, descinencia);
-    elPasado(raiz, descinencia);
-    nosotrosPasado(raiz, descinencia);
-    ellosPasado(raiz, descinencia);
-    vosotrosPasado(raiz, descinencia);
+    if(descinencia == "ar") return raiz + "aiste";
+    else return raiz + "eis";
 }
 
 function yoFuturo(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Yo " + raiz + "are" + "<br>");
-    else document.write("Yo " + raiz + "ere" + "<br>");
+    if(descinencia == "ar") return raiz + "are";
+    else return raiz + "ere";
 }
 
 function tuFuturo(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Tu " + raiz + "aras" + "<br>");
-    else document.write("Tu " + raiz + "eras" + "<br>");
+    if(descinencia == "ar") return raiz + "aras";
+    else return raiz + "eras";
 }
 
 function elFuturo(raiz, descinencia) {
-    if(descinencia == "ar") document.write("El " + raiz + "ara" + "<br>");
-    else document.write("El " + raiz + "era" + "<br>");
+    if(descinencia == "ar") return raiz + "ara";
+    else return raiz + "era";
 }
 
 function nosotrosFuturo(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Nosotros " + raiz + "aremos" + "<br>");
-    else document.write("Nosotros " + raiz + "eremos" + "<br>");
+    if(descinencia == "ar") return raiz + "aremos";
+    else return raiz + "eremos";
 }
 
 function ellosFuturo(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Ellos " + raiz + "aran" + "<br>");
-    else document.write("Ellos " + raiz + "eran" + "<br>");
+    if(descinencia == "ar") return raiz + "aran";
+    else return raiz + "eran";
 }
 
 function vosotrosFuturo(raiz, descinencia) {
-    if(descinencia == "ar") document.write("Vosotros " + raiz + "areis" + "<br>");
-    else document.write("Vosotros " + raiz + "ereis" + "<br>");
-}
-
-function conjugarFuturo(raiz, descinencia) {
-    yoFuturo(raiz, descinencia);
-    tuFuturo(raiz, descinencia);
-    elFuturo(raiz, descinencia);
-    nosotrosFuturo(raiz, descinencia);
-    ellosFuturo(raiz, descinencia);
-    vosotrosFuturo(raiz, descinencia);
+    if(descinencia == "ar") return raiz + "areis";
+    else return raiz + "ereis";
 }
 
 function esDescidencia(palabra) {
     if(palabra == "ar" || palabra == "er" || palabra == "ir") return true;
 }
 
-function conjugarVerbos(palabra) {
-    let mensaje;
-    let verbo;
-    let descinencia = "";
-    let raiz = "";
+const palabra = prompt("Digitar un verbo: ");
 
-    mensaje = palabra.split(" ");
-    verbo = mensaje[0];
+let mensaje;
+let verbo;
+let descinencia = "";
+let raiz = "";
 
-    for(let i = 0; i < verbo.length-2; i++) {
-        raiz += verbo[i];
-    }
+mensaje = palabra.split(" ");
+verbo = mensaje[0];
 
-    descinencia = verbo[verbo.length-2] + verbo[verbo.length-1];   
-
-    if(esDescidencia(descinencia)) {
-        document.write("Presente: " + "<br>");
-        conjugarPresente(raiz, descinencia);
-        document.write("<br>" + "<br>" + "Pasado: " + "<br>");
-        conjugarPasado(raiz, descinencia);
-        document.write("<br>" + "<br>" + "Futuro: " + "<br>");
-        conjugarFuturo(raiz, descinencia);
-    }
+for(let i = 0; i < verbo.length-2; i++) {
+    raiz += verbo[i];
 }
 
-const verbo = prompt("Digitar un verbo: ");
-conjugarVerbos(verbo);
+descinencia = verbo[verbo.length-2] + verbo[verbo.length-1];   
+
+if(esDescidencia(descinencia)) {
+    document.write("Presente: " + "<br>");
+    document.write("Yo " + yoPresente(raiz));
+    document.write("<br>" + "Tu " + tuPresente(raiz, descinencia));
+    document.write("<br>" + "El " + elPresente(raiz, descinencia));
+    document.write("<br>" + "Nosotros " + nosotrosPresente(raiz, descinencia));
+    document.write("<br>" + "Ellos " + ellosPresente(raiz, descinencia));
+    document.write("<br>" + "Vosotros " + vosotrosPresente(raiz, descinencia));
+
+    document.write("<br>" + "<br>" + "Pasado: " + "<br>");
+    document.write("Yo " + yoPasado(raiz));
+    document.write("<br>" + "Tu " + tuPasado(raiz, descinencia));
+    document.write("<br>" + "El " + elPasado(raiz, descinencia));
+    document.write("<br>" + "Nosotros " + nosotrosPasado(raiz, descinencia));
+    document.write("<br>" + "Ellos " + ellosPasado(raiz, descinencia));
+    document.write("<br>" + "Vosotros " + vosotrosPasado(raiz, descinencia));
+
+    document.write("<br>" + "<br>" + "Futuro: " + "<br>");
+    document.write("Yo " + yoFuturo(raiz));
+    document.write("<br>" + "Tu " + tuFuturo(raiz, descinencia));
+    document.write("<br>" + "El " + elFuturo(raiz, descinencia));
+    document.write("<br>" + "Nosotros " + nosotrosFuturo(raiz, descinencia));
+    document.write("<br>" + "Ellos " + ellosFuturo(raiz, descinencia));
+    document.write("<br>" + "Vosotros " + vosotrosFuturo(raiz, descinencia));
+}
